@@ -1,13 +1,12 @@
-# The completeness of metadata accompanying omics studies
+# Lack of diversity in T cell receptor sequencing studies
 
-[![Preprint Available](https://img.shields.io/badge/Preprint-online-green.svg)](https://osf.io/na5j8/)
+[![Preprint Available](https://img.shields.io/badge/Preprint-online-green.svg)](https://osf.io/w25hq/)
 
-This project contains the links to the datasets and the figures that were used for our study : ["Improving the completeness of public metadata accompanying omics studies"]
+This project contains the links to the datasets and the figures that were used for our study : ["Examining the diversity of the open TCR-Seq studies"]
 
 **Table of contents**
 * [Datasets](#datasets)
-  * [Extraction of metadata](#extraction-of-metadata)
-  * [Description of metadata accompanying sepsis studies](#description-of-metadata-accompanying-sepsis-studies)
+  * [Extraction of diversity information](#extraction-of-diversity-information)
 * [Reproducing results](#reproducing-results)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
@@ -15,35 +14,23 @@ This project contains the links to the datasets and the figures that were used f
 
 # Datasets
 
-## Extraction of metadata
+## Extraction of diversity information
 
-We carefully examined a total of 3,125 samples across 29 studies. The original publications from journals were manually surveyed to gather information about the nine clinical phenotypes in question. The authors of these publications who own the data were contacted personally to obtain the complete data that was analyzed for that particular study. To extract metadata from the public repository, two Python scripts were used. These scripts are available [here](https://github.com/Mangul-Lab-USC/Completeness-of-Metadata-Accompanying-Omics-Studies/tree/main/scripts). The first script is used to get the files from the repository in the XML format. Further, the second script extracts the information from the XML file into a CSV file. These summary files from the repository can be found [here](https://github.com/Mangul-Lab-USC/Metadata/tree/main/repository_metadata) and the data summarized from the original publication can be found [here](https://github.com/Mangul-Lab-USC/Metadata/tree/main/publication_metadata).
-
-## Description of metadata accompanying sepsis studies
-
-There are four CSV files that were used to produce the results of the analysis.
-
-* [sepsis_clinical_phenotypes.csv](https://github.com/Mangul-Lab-USC/Completeness-of-Metadata-Accompanying-Omics-Studies/blob/main/data/sepsis_clinical_phenotypes.csv) contains data regarding the number of times a particular clinical phenotype has been reported on each - the publication and the public repository. The total number of times the clinical phenotype was reported is a sum of the individual platforms. This is further expressed as a percentage. 
-
-* [sepsis_comparison.csv](https://github.com/Mangul-Lab-USC/Completeness-of-Metadata-Accompanying-Omics-Studies/blob/main/data/sepsis_comparison.csv) reports the number of clinical phenotypes that have been reported on each of the platforms for each of the cohorts. There were a total of nine clinical phenotypes that were considered. The total number of clinical phenotypes has been expressed as a percentage of the total (all nine clinical phenotypes being reported corresponds to 100%).
-
-* [sepsis_completeness.csv](https://github.com/Mangul-Lab-USC/Completeness-of-Metadata-Accompanying-Omics-Studies/blob/main/data/sepsis_completeness.csv) was used to observe which of the cohorts were most and least complete. The number of clinical phenotypes reported for each cohort on the publication and the public repository was counted, summed and the total was expressed as a percentage.
-
-* [sepsis_individual_phenonotypes](https://github.com/Mangul-Lab-USC/Completeness-of-Metadata-Accompanying-Omics-Studies/blob/main/data/sepsis_individual_phenotypes.csv) contains data to calculate the most and least discrepancy between the individual phenotypes reported on both platforms.
+We carefully examined a total of 3,263 samples across 42 studies. Among current AIRR studies, we chose to focus on the T cell receptor sequencing (TCR-Seq) studies. We checked for the study participants’ ethnicity, race, ancestry information among the published TCR studies that have available TCR-Seq data through PubMed and online public repositories, including iReceptor and immuneACCESS® (Adaptive Biotechnologies), till January 2021. We collected either the study participants’ self-reported ancestry or race/ethnicity. We included the studies that included ancestry or race/ethnicity information in the study design. Conversely, email inquiries were made to the authors to acquire relevant information. Two follow-up email inquiries were made. After the email inquiries, we acquired a total of 42 studies with available study participants’ self-reported ancestry or race/ethnicity. Then we categorized the study participants into European, Asian, African, and other population groups. Due to the great heterogeneity in the way others replied to our inquiry, we made inferences of the most suitable category for each study participant for the analysis.
 
 
 # Reproducing results
 
-We have prepared Jupyter Notebooks that utilize the data described above to visualize and reproduce the results presented in our editorial. 
+We have prepared Jupyter Notebooks that utilize the data described above to visualize and reproduce the results presented in our editorial.
 
-* [Completeness of metadata results](https://github.com/Mangul-Lab-USC/Completeness-of-Metadata-Accompanying-Omics-Studies/blob/main/notebooks/sepsis_metadata_results.ipynb)
+* [Reproducing the figure](https://github.com/Mangul-Lab-USC/Diversity-in-TCR-Seq-studies)
 
 
 # Acknowledgements
 
-We take this opportunity to specifically thank Jeremy Rotman for assisting to write the two Python scripts to extract metadata from NCBI GEO. We also thank Henry Fu for his help in the initial manual work of going through publications to accumulate data.
+S.M. is partially supported by National Science Foundation grants 2041984. M.S. is supported by the Ministry of Science and Higher Education of the Russian Federation grant no. 075-15-2020-807. We thank all the authors (Dr. Anastasia A. Minervina, Dr. Mikhail V. Pogorelyy, Dr. Grigory A Efimov, Dr. Zheming Lu, Dr. Yang Ke, Dr. Xiao Liu, Dr. Mascha Binder, Dr. Dmitriy M. Chudakov, Dr. Nathalie Bedard, Dr. Jun S. Liu, Dr. Michelle Miron, Dr. Maura Rossetti, Dr. Satu Mustjoki, Dr. Atsunari Kawashima, Dr. Matthew A. Brown, Dr. Jorge Correale, and Dr. Tae Jin Kim) who shared the information of the study participants with us.
 
 
 # Contact
 
-Please do not hesitate to contact us (serghei.mangul@gmail.com, anushkar@usc.edu) if you have any comments, suggestions, or clarification requests regarding the study or if you would like to contribute to the extended analysis involving more disease conditions.
+Please do not hesitate to contact us (serghei.mangul@gmail.com, yuninghu@usc.edu) if you have any comments, suggestions, or clarification requests regarding the study or if you would like to contribute to the extended analysis involving more disease conditions.
