@@ -40,4 +40,8 @@ Study,Race/Ethnicity/Ancestry information,Type of information,Number of total pa
 "Nolan, S. et al. A large-scale database of T-cell receptor beta (TCRβ) sequences and binding associations from natural and synthetic exposure to SARS-CoV-2. Res. Sq. (2020) ","European, Asian, African, Other",Race/Ethnicity,1146,925,43,103,75,68,1078,
 "Shomuradova, A. S. et al. SARS-CoV-2 Epitopes Are Recognized by a Public and Diverse Repertoire of Human T Cell Receptors. Immunity 53, 1245-1257.e5 (2020).",European,Race/Ethnicity,34,34,0,0,0,NA,NA,
 "Nishida, K. et al. Clinical importance of the expression of CD4+CD8+ T cells in renal cell carcinoma. Int. Immunol. 32, 347–357 (2020).",Asian,Self-reported Ancestry,104,0,104,0,0,NA,NA,
+<<<<<<< HEAD
 "Kusnadi, A. et al. Severely ill COVID-19 patients display impaired exhaustion features in SARS-CoV-2-reactive CD8+ T cells. Sci. Immunol. 6, (2021).","European, Asian, African ",Race/Ethnicity,39,30,7,2,0,NA,NA,
+=======
+"Kusnadi, A. et al. Severely ill COVID-19 patients display impaired exhaustion features in SARS-CoV-2-reactive CD8+ T cells. Sci. Immunol. 6, (2021).","European, Asian, African ",Race/Ethnicity,39,30,7,2,0,NA,NA,
+>>>>>>> fffb1898cd4cee0a8505debe635491faac894062
