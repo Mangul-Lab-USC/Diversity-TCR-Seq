@@ -36,3 +36,8 @@ S.M. is partially supported by National Science Foundation grants 2041984. M.S. 
 # Contact
 
 Please do not hesitate to contact us (serghei.mangul@gmail.com, yuninghu@usc.edu) if you have any comments, suggestions, or clarification requests regarding the study or if you would like to contribute to the extended analysis involving more disease conditions.
+
+
+# Citation
+
+The link to the preprint of the study: https://osf.io/w25hq. 
