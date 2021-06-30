@@ -14,6 +14,8 @@ This project contains the links to the datasets and the figures that were used f
 
 # Datasets
 
+The raw data for the analysis can be found by the following link: https://github.com/Mangul-Lab-USC/Diversity-TCR-Seq/blob/main/data/tcr.csv
+
 ## Extraction of diversity information
 
 We carefully examined a total of 3,263 samples across 42 studies. Among current AIRR studies, we chose to focus on the T cell receptor sequencing (TCR-Seq) studies. We checked for the study participants’ ethnicity, race, ancestry information among the published TCR studies that have available TCR-Seq data through PubMed and online public repositories, including iReceptor and immuneACCESS® (Adaptive Biotechnologies), till January 2021. We collected either the study participants’ self-reported ancestry or race/ethnicity. We included the studies that included ancestry or race/ethnicity information in the study design. Conversely, email inquiries were made to the authors to acquire relevant information. Two follow-up email inquiries were made. After the email inquiries, we acquired a total of 42 studies with available study participants’ self-reported ancestry or race/ethnicity. Then we categorized the study participants into European, Asian, African, and other population groups. Due to the great heterogeneity in the way others replied to our inquiry, we made inferences of the most suitable category for each study participant for the analysis.
