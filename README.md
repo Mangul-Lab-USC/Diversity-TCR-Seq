@@ -25,7 +25,7 @@ We carefully examined a total of 3,263 samples across 42 studies. Among current 
 
 We have prepared Jupyter Notebooks that utilize the data described above to visualize and reproduce the results presented in our editorial.
 
-* [Reproducing the figure](notebooks/Supplement Figure.ipynb)
+* [Reproducing the figure](https://github.com/Mangul-Lab-USC/Diversity-TCR-Seq/blob/main/notebooks/Supplement%20Figure.ipynb)
 
 
 # Acknowledgements
