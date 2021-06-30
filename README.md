@@ -1,4 +1,4 @@
-# Lack of diversity in T cell receptor sequencing studies
+# Assessment of diversity in T cell receptor sequencing studies
 
 [![Preprint Available](https://img.shields.io/badge/Preprint-online-green.svg)](https://osf.io/w25hq/)
 
